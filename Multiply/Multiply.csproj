@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Calculator2\Operations2\Operations.csproj" />
+    <ProjectReference Include="..\Operations\Operations.csproj" />
   </ItemGroup>
 
 </Project>
