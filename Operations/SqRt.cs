@@ -2,7 +2,7 @@
 
 namespace Operations
 {
-    public class SquareRoot
+    public class SqRt
     {
         public static double Root(int a)
         {
