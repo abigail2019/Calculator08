@@ -1,6 +1,6 @@
 ﻿namespace Operations
 {
-    public class Square
+    public class Sq
     {
         public static int Squared(int a)
         {

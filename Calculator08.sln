@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Divide", "Divide\Divide.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operations", "Operations\Operations.csproj", "{94DBF393-F5B8-44C1-943D-82806CD90C6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add", "Add\Add.csproj", "{9B263727-7821-4316-9F66-721B099618A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add", "Add\Add.csproj", "{9B263727-7821-4316-9F66-721B099618A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subtract", "Subtract\Subtract.csproj", "{301AB977-D1B3-4724-B641-3380A53C1E71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subtract", "Subtract\Subtract.csproj", "{301AB977-D1B3-4724-B641-3380A53C1E71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square", "Square\Square.csproj", "{78AE9584-C0CD-4DA5-AC7E-47824D95E72F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{301AB977-D1B3-4724-B641-3380A53C1E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301AB977-D1B3-4724-B641-3380A53C1E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301AB977-D1B3-4724-B641-3380A53C1E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AE9584-C0CD-4DA5-AC7E-47824D95E72F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AE9584-C0CD-4DA5-AC7E-47824D95E72F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AE9584-C0CD-4DA5-AC7E-47824D95E72F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AE9584-C0CD-4DA5-AC7E-47824D95E72F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
