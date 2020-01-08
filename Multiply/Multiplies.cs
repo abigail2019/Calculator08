@@ -3,14 +3,14 @@ using Operations;
 
 namespace Multiply
 {
-    public interface IMultiply
+    public interface IMultiplies
     {
         public dynamic Times(dynamic a, dynamic b);
 
         public dynamic Times(dynamic a);
 
     }
-    public class Multiply : IMultiply
+    public class Multiplies : IMultiplies
     {
         public dynamic result;
         public dynamic Times(dynamic a, dynamic b)

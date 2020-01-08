@@ -3,13 +3,13 @@ using Operations;
 
 namespace Divide
 {
-    public interface IDivide
+    public interface IDivides
     {
         public dynamic Quotient(dynamic a, dynamic b);
 
         public dynamic Quotient(dynamic a);
     }
-    public class Divide : IDivide
+    public class Divides : IDivides
     {
         public dynamic result;
         public dynamic Quotient(dynamic a, dynamic b)

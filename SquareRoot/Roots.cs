@@ -3,12 +3,12 @@ using Operations;
 
 namespace SquareRoot
 {
-    public interface ISquareRoot
+    public interface IRoots
     {
         public dynamic Root(dynamic a);
 
     }
-    public class SquareRoot : ISquareRoot
+    public class Roots : IRoots
     {
         public dynamic result;
 
