@@ -39,5 +39,6 @@ namespace Operations.Tests
         {
             Assert.AreEqual(50, Addition.Sum(arrayB));
         }
+
     }
 }
