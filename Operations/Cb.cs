@@ -1,6 +1,6 @@
 ﻿namespace Operations
 {
-    public class Cube
+    public class Cb
     {
         public static int Cubed(int a)
         {
