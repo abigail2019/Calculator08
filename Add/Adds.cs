@@ -3,14 +3,14 @@ using Operations;
 
 namespace Add
 {
-    public interface IAdd
+    public interface IAdds
     {
         public dynamic Sum(dynamic a, dynamic b);
 
         public dynamic Sum(dynamic a);
 
     }
-    public class Add : IAdd
+    public class Adds : IAdds
     {
         public dynamic result;
         public dynamic Sum(dynamic a, dynamic b)

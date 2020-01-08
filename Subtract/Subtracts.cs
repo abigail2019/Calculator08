@@ -3,13 +3,13 @@ using Operations;
 
 namespace Subtract
 {
-    public interface ISubtract
+    public interface ISubtracts
     {
         public dynamic Difference(dynamic a, dynamic b);
 
         public dynamic Difference(dynamic a);
     }
-    public class Subtract : ISubtract
+    public class Subtracts : ISubtracts
     {
         public dynamic result;
         public dynamic Difference(dynamic a, dynamic b)

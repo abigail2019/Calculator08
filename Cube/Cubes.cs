@@ -3,12 +3,12 @@ using Operations;
 
 namespace Cube
 {
-    public interface ICube
+    public interface ICubes
     {
         public dynamic Cubed(dynamic a);
 
     }
-    public class Cube : ICube
+    public class Cubes : ICubes
     {
         public dynamic result;
 
