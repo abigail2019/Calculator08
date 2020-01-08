@@ -3,12 +3,12 @@ using Operations;
 
 namespace Square
 {
-    public interface ISquaring
+    public interface ISquare
     {
         public dynamic Squared(dynamic a);
 
     }
-    public class Squaring : ISquaring
+    public class Square : ISquare
     {
         public dynamic result;
     
