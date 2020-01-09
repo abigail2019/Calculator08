@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Operations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Operations.Tests
 {
@@ -13,7 +9,7 @@ namespace Operations.Tests
         private readonly int b = 3;
         private readonly double c = 6.8;
         private readonly double d = 3.4;
-        private readonly double[] e = { 23.25, 2.5, 6.2};
+        private readonly double[] e = { 23.25, 2.5, 6.2 };
         private readonly int[] f = { 30, 3, 2, 5 };
 
         [TestMethod()]

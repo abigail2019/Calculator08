@@ -1,14 +1,8 @@
-﻿using System;
-using Operations;
+﻿using Operations;
 
 namespace Cube
 {
-    public interface ICubes
-    {
-        public dynamic Cubed(dynamic a);
-
-    }
-    public class Cubes : ICubes
+     public class Cubes : ICubes
     {
         public dynamic result;
 

@@ -1,43 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Add;
-using Subtract;
-using Multiply;
+﻿using Add;
+using Cube;
 using Divide;
+using Multiply;
 using Square;
 using SquareRoot;
-using Cube;
-using Operations;
-
+using Subtract;
 
 namespace BasicCalculator
 {
-    public interface ICalculator
-    {
-        public dynamic Sum(dynamic a, dynamic b);
-
-        public dynamic Sum(dynamic a);
-
-        public dynamic Difference(dynamic a, dynamic b);
-
-        public dynamic Difference(dynamic a);
-
-        public dynamic Times(dynamic a, dynamic b);
-
-        public dynamic Times(dynamic a);
-
-        public dynamic Quotient(dynamic a, dynamic b);
-
-        public dynamic Quotient(dynamic a);
-
-        public dynamic Squared(dynamic a);
-
-        public dynamic Root(dynamic a);
-
-        public dynamic Cubed(dynamic a);
-
-    }
     public class Calculator : ISubtracts, IMultiplies, IDivides, ISquares, IRoots, ICubes, ICalculator, IAdds
     {
         private readonly Adds add = new Adds();
@@ -49,6 +19,7 @@ namespace BasicCalculator
         private readonly Cubes cube = new Cubes();
 
         public dynamic result;
+
         public dynamic Sum(dynamic a, dynamic b)
         {
             result = add.Sum(a, b);

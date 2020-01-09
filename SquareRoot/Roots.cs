@@ -1,13 +1,9 @@
-﻿using System;
-using Operations;
+﻿using Operations;
 
 namespace SquareRoot
 {
-    public interface IRoots
-    {
-        public dynamic Root(dynamic a);
+    
 
-    }
     public class Roots : IRoots
     {
         public dynamic result;
