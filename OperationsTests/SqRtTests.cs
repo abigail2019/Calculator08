@@ -7,7 +7,7 @@ using System.Text;
 namespace Operations.Tests
 {
     [TestClass()]
-    public class SqRtRtTests
+    public class SqRtTests
     {
         private readonly int a = 225;
         private readonly double c = 57.76;
@@ -24,6 +24,35 @@ namespace Operations.Tests
         public void RootDoubleTest()
         {
             Assert.AreEqual(7.6, SqRt.Root(c));
+        }
+
+        [TestMethod()]
+        public void RootDoubleArrayTest()
+        {
+            double[] x = new double[e.Length];
+            double[] y = SqRt.Root(e);
+            int i = 0;
+            foreach (double a in e)
+            {
+                x[i] = SqRt.Root(a);
+                Assert.AreEqual(x[i], y[i]);
+                i++;
+            }
+
+        }
+
+        [TestMethod()]
+        public void RootIntArrayTest()
+        {
+            double[] x = new double[f.Length];
+            double[] y = SqRt.Root(f);
+            int i = 0;
+            foreach (int a in f)
+            {
+                x[i] = SqRt.Root(a);
+                Assert.AreEqual(x[i], y[i]);
+                i++;
+            }
         }
     }
 }

@@ -25,5 +25,34 @@ namespace Operations.Tests
         {
             Assert.AreEqual(421.875, Cb.Cubed(c));
         }
+
+        [TestMethod()]
+        public void CubedDoubleArrayTest()
+        {
+            double[] x = new double[e.Length];
+            double[] y = Cb.Cubed(e);
+            int i = 0;
+            foreach (double a in e)
+            {
+                x[i] = Cb.Cubed(a);
+                Assert.AreEqual(x[i], y[i]);
+                i++;
+            }
+
+        }
+
+        [TestMethod()]
+        public void CubedIntArrayTest()
+        {
+            int[] x = new int[f.Length];
+            int[] y = Cb.Cubed(f);
+            int i = 0;
+            foreach (int a in f)
+            {
+                x[i] = Cb.Cubed(a);
+                Assert.AreEqual(x[i], y[i]);
+                i++;
+            }
+        }
     }
 }
