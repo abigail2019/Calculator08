@@ -30,25 +30,28 @@ namespace Operations.Tests
         public void SquaredDoubleArrayTest()
         {
             double[] x = new double[e.Length];
+            double[] y = Sq.Squared(e);
             int i = 0;
             foreach(double a in e){
                 x[i] = Sq.Squared(a);
+                Assert.AreEqual(x[i], y[i]);
                 i++;
             }
-            Assert.AreEqual(x, Sq.Squared(e));
+            
         }
 
         [TestMethod()]
         public void SquaredIntArrayTest()
         {
-            int[] y = new int[f.Length];
+            int[] x = new int[f.Length];
+            int[] y = Sq.Squared(f);
             int i = 0;
             foreach (int a in f)
             {
-                y[i] = Sq.Squared(a);
+                x[i] = Sq.Squared(a);
+                Assert.AreEqual(x[i], y[i]);
                 i++;
             }
-            Assert.AreEqual(y, Sq.Squared(f));
         }
     }
 }
