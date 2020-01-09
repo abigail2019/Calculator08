@@ -9,28 +9,21 @@ namespace Operations.Tests
     [TestClass()]
     public class CbTests
     {
+        private readonly int a = 15;
+        private readonly double c = 7.5;
+        private readonly double[] e = { 6.2, 1.5, 2.5 };
+        private readonly int[] f = { 30, 3, 2, 5 };
+
         [TestMethod()]
         public void CubedTest()
         {
-            Assert.Fail();
+            Assert.AreEqual(3375, Cb.Cubed(a));
         }
 
         [TestMethod()]
-        public void CubedTest1()
+        public void CubedDoubleTest()
         {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void CubedTest2()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void CubedTest3()
-        {
-            Assert.Fail();
+            Assert.AreEqual(421.875, Cb.Cubed(c));
         }
     }
 }

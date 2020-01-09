@@ -9,35 +9,35 @@ namespace Operations.Tests
     [TestClass()]
     public class AdditionTests
     {
-        private readonly int a = 10;
-        private readonly int b = 20;
-        private readonly double c = 10.5;
-        private readonly double d = 20.5;
-        private readonly double[] arrayA = { 1.01, 2.04, 3.06, 4.07, 6.4, 7, 8, 9, 10 };
-        private readonly int[] arrayB = { 1, 2, 3, 4, 6, 7, 8, 9, 10 };
+        private readonly int a = 15;
+        private readonly int b = 3;
+        private readonly double c = 7.6;
+        private readonly double d = 3.2;
+        private readonly double[] e = { 6.02, 1.3, 2.5};
+        private readonly int[] f = { 30, 3, 2, 5 };
 
         [TestMethod()]
         public void SumTest()
         {
-            Assert.AreEqual(30, Addition.Sum(a, b));
+            Assert.AreEqual(18, Addition.Sum(a, b));
         }
 
         [TestMethod()]
         public void SumDoubleTest()
         {
-            Assert.AreEqual(31, Addition.Sum(c, d));
+            Assert.AreEqual(10.8, Addition.Sum(c, d));
         }
 
         [TestMethod()]
         public void SumDoubleArrayTest()
         {
-            Assert.AreEqual(50.58, Addition.Sum(arrayA));
+            Assert.AreEqual(9.82, Addition.Sum(e));
         }
 
         [TestMethod()]
         public void SumIntArrayTest()
         {
-            Assert.AreEqual(50, Addition.Sum(arrayB));
+            Assert.AreEqual(40, Addition.Sum(f));
         }
 
     }

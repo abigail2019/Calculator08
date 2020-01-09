@@ -7,30 +7,23 @@ using System.Text;
 namespace Operations.Tests
 {
     [TestClass()]
-    public class SqRtTests
+    public class SqRtRtTests
     {
+        private readonly int a = 225;
+        private readonly double c = 57.76;
+        private readonly double[] e = { 6.2, 1.5, 2.5 };
+        private readonly int[] f = { 30, 3, 2, 5 };
+
         [TestMethod()]
         public void RootTest()
         {
-            Assert.Fail();
+            Assert.AreEqual(15, SqRt.Root(a));
         }
 
         [TestMethod()]
-        public void RootTest1()
+        public void RootDoubleTest()
         {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void RootTest2()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
-        public void RootTest3()
-        {
-            Assert.Fail();
+            Assert.AreEqual(7.6, SqRt.Root(c));
         }
     }
 }
