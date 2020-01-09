@@ -38,7 +38,7 @@ namespace BasicCalculator
         public dynamic Cubed(dynamic a);
 
     }
-    class Calculator : ISubtracts, IMultiplies, IDivides, ISquares, IRoots, ICubes, ICalculator, IAdds
+    public class Calculator : ISubtracts, IMultiplies, IDivides, ISquares, IRoots, ICubes, ICalculator, IAdds
     {
         private readonly Adds add = new Adds();
         private readonly Subtracts subtract = new Subtracts();

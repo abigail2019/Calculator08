@@ -7,38 +7,37 @@ using System.Text;
 namespace Operations.Tests
 {
     [TestClass()]
-    public class AdditionTests
+    public class MultiplicationTests
     {
         private readonly int a = 15;
         private readonly int b = 3;
         private readonly double c = 7.6;
         private readonly double d = 3.2;
-        private readonly double[] e = { 6.02, 1.3, 2.5};
+        private readonly double[] e = { 6.2, 1.5, 2.5 };
         private readonly int[] f = { 30, 3, 2, 5 };
 
         [TestMethod()]
-        public void SumTest()
+        public void TimesTest()
         {
-            Assert.AreEqual(18, Addition.Sum(a, b));
+            Assert.AreEqual(45, Multiplication.Times(a, b));
         }
 
         [TestMethod()]
-        public void SumDoubleTest()
+        public void TimesDoubleTest()
         {
-            Assert.AreEqual(10.8, Addition.Sum(c, d));
+            Assert.AreEqual(24.32, Multiplication.Times(c, d));
         }
 
         [TestMethod()]
-        public void SumDoubleArrayTest()
+        public void TimesDoubleArrayTest()
         {
-            Assert.AreEqual(9.82, Addition.Sum(e));
+            Assert.AreEqual(23.25, Multiplication.Times(e));
         }
 
         [TestMethod()]
-        public void SumIntArrayTest()
+        public void TimesIntArrayTest()
         {
-            Assert.AreEqual(40, Addition.Sum(f));
+            Assert.AreEqual(900, Multiplication.Times(f));
         }
-
     }
 }
