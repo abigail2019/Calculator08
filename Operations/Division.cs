@@ -2,7 +2,7 @@
 {
     public class Division
     {
-        public static int Quotient(int a, int b)
+        public static double Quotient(int a, int b)
         {
             return a / b;
         }
@@ -22,9 +22,9 @@
             return c;
         }
 
-        public static int Quotient(int[] a)
+        public static double Quotient(int[] a)
         {
-            int c = a[0];
+            double c = a[0];
             for (int i = 1; i < a.Length; i++)
             {
                 c = Quotient(c, a[i]);

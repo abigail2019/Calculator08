@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Operations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Operations.Tests
 {
@@ -13,7 +9,7 @@ namespace Operations.Tests
         private readonly int b = 3;
         private readonly double c = 7.6;
         private readonly double d = 3.2;
-        private readonly double[] e = { 6.02, 1.3, 2.5};
+        private readonly double[] e = { 6.02, 1.3, 2.5 };
         private readonly int[] f = { 30, 3, 2, 5 };
 
         [TestMethod()]
@@ -39,6 +35,5 @@ namespace Operations.Tests
         {
             Assert.AreEqual(40, Addition.Sum(f));
         }
-
     }
 }

@@ -6,7 +6,7 @@ namespace Operations
     {
         public static double Root(int a)
         {
-            return Math.Pow(a, 1.0 / 2.0); ;
+            return Math.Pow(a, 1.0 / 2.0);
         }
 
         public static double Root(double a)
