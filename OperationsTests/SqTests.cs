@@ -1,8 +1,4 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Operations;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Operations.Tests
 {
@@ -32,12 +28,12 @@ namespace Operations.Tests
             double[] x = new double[e.Length];
             double[] y = Sq.Squared(e);
             int i = 0;
-            foreach(double a in e){
+            foreach (double a in e)
+            {
                 x[i] = Sq.Squared(a);
                 Assert.AreEqual(x[i], y[i]);
                 i++;
             }
-            
         }
 
         [TestMethod()]
