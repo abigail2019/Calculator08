@@ -3,7 +3,7 @@ using System;
 using StatOperations2;
 
 
-namespace StatisticsCalculator
+namespace StatCalculator
 {
     public class StatCalculator : Calculator
     {
